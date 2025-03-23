@@ -17,6 +17,9 @@
 
 </div>
 
+<h3> Guia de Tags HTML</h3>
+<img srr="https://cdn.educba.com/academy/wp-content/uploads/2023/07/Basic-HTML-Tags2-1.jpg">
+
 <h3>Sugestão de artigo (transformar abaixo em uma página HTML):</h3>
 
 <h2>Arranha-Céus: A Engenharia por Trás das Construções Gigantes</h2>

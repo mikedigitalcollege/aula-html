@@ -11,7 +11,7 @@
 ✅ Título  
 ✅ Introdução  
 ✅ Descrição  
-✅ Características  
+✅ Características
 ✅ Imagens  
 ✅ Conclusão
 

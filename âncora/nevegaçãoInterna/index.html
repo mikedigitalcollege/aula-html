@@ -1,0 +1,70 @@
+<html lang="en">
+  <head>
+    <title>Livros</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+      }
+      section {
+        height: 100vh;
+        padding: 20px;
+        border-bottom: 2px solid #ccc;
+      }
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #333;
+        padding: 10px 0;
+        text-align: center;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--
+      A tag <a> é um elemento de âncora que cria um link para outra página.
+      O atributo href define o endereço da página para a qual o link aponta.
+      O atributo target define onde a página será aberta.
+      O valor _blank abre a página em uma nova aba.
+      -->
+    <nav>
+      <a href="#secao1">Seção 1</a>
+      <a href="#secao2">Seção 2</a>
+      <a href="#secao3">Seção 3</a>
+      <a href="#secao4">Seção 4</a>
+    </nav>
+
+    <section id="secao1">
+      <h2>Seção 1</h2>
+      <p>Conteúdo da primeira seção. Role para baixo para ver mais.</p>
+    </section>
+
+    <section id="secao2">
+      <h2>Seção 2</h2>
+      <p>Conteúdo da segunda seção. Continue rolando para explorar.</p>
+    </section>
+
+    <section id="secao3">
+      <h2>Seção 3</h2>
+      <p>
+        Conteúdo da terceira seção. A navegação te levará diretamente para cada
+        seção.
+      </p>
+    </section>
+
+    <section id="secao4">
+      <h2>Seção 4</h2>
+      <p>Última seção.</p>
+      <a href="#secao1">Voltar para o topo</a>.
+    </section>
+  </body>
+</html>

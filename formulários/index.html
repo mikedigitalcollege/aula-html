@@ -5,18 +5,78 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="https://google.com/search" method="get">
-      <label for="nome">Campo de busca: </label>
+    <form>
+      <label for="nome">Nome: </label>
       <input type="text" name="q" />
       <br /><br />
 
       <label for="email">Email: </label>
-      <input type="email" id="email" name="email" required />
+      <input type="email" id="email" name="email" />
       <br /><br />
 
       <label for="senha">Senha: </label>
-      <input type="password" id="senha" name="senha" required />
+      <input type="password" id="senha" name="senha" />
 
+      <br />
+      <br />
+
+      <label>Gênero: </label>
+      <input type="radio" id="masculino" name="genero" />
+      <label for="masculino">Masculino</label>
+
+      <input type="radio" id="feminino" name="genero" />
+      <label for="feminino">Feminino</label>
+
+      <br />
+      <br />
+      <label>Interesses: </label>
+
+      <input type="checkbox" id="backend" value="backend" name="interesses" />
+      <label for="backend">Backend</label>
+
+      <input type="checkbox" id="frontend" value="frontend" name="interesses" />
+      <label for="frontend">Frontend</label>
+
+      <input
+        type="checkbox"
+        id="fullstack"
+        value="fullstack"
+        name="interesses"
+      />
+      <label for="fullstack">Fullstack</label>
+
+      <br />
+      <br />
+
+      <label for="birthdate">Data de Nascimento: </label>
+      <input type="date" id="birthdate" name="nascimento" />
+
+      <br />
+      <br />
+      <label for="fotoDePerfil">Foto de Perfil: </label>
+      <input type="file" id="fotoDePerfil" name="fotoDePerfil" />
+      <br />
+      <br />
+
+      <label for="interesse"> Interesses: </label>
+      <select name="interesse" id="interesse">
+        <option value="">Selecione uma das opções</option>
+        <option value="fullstack">Ser Fullstack</option>
+        <option value="frontend">Ser Frontend</option>
+        <option value="backend">Ser Backend</option>
+        <option value="mobile">Ser Mobile</option>
+      </select>
+
+      <br />
+      <br />
+      <label for="sobre">Sobre mim: </label>
+      <textarea
+        name="sobre"
+        id="sobre"
+        cols="40"
+        row="6"
+        placeholder="Descreva sobre você..."
+      ></textarea>
       <br />
       <br />
       <button type="submit">Pesquisar</button>
